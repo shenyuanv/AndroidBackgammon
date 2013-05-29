@@ -1,0 +1,86 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=2688, tid=2500
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.3-b02 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01b89400):  JavaThread "Unknown thread" [_thread_in_vm, id=2500, stack(0x01bd0000,0x01c20000)]
+
+Stack: [0x01bd0000,0x01c20000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x01b89400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=2500, stack(0x01bd0000,0x01c20000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	D:\MyEclipse8X\myeclipse8.0\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\bin\javaw.exe
+0x774b0000 - 0x77630000 	C:\Windows\SysWOW64\ntdll.dll
+0x76660000 - 0x76760000 	C:\Windows\syswow64\kernel32.dll
+0x75310000 - 0x75356000 	C:\Windows\syswow64\KERNELBASE.dll
+0x76ee0000 - 0x76f80000 	C:\Windows\syswow64\ADVAPI32.dll
+0x754b0000 - 0x7555c000 	C:\Windows\syswow64\msvcrt.dll
+0x76df0000 - 0x76e09000 	C:\Windows\SysWOW64\sechost.dll
+0x75360000 - 0x75450000 	C:\Windows\syswow64\RPCRT4.dll
+0x75020000 - 0x75080000 	C:\Windows\syswow64\SspiCli.dll
+0x75010000 - 0x7501c000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x767a0000 - 0x768a0000 	C:\Windows\syswow64\USER32.dll
+0x76e10000 - 0x76ea0000 	C:\Windows\syswow64\GDI32.dll
+0x76790000 - 0x7679a000 	C:\Windows\syswow64\LPK.dll
+0x755f0000 - 0x7568d000 	C:\Windows\syswow64\USP10.dll
+0x75450000 - 0x754b0000 	C:\Windows\system32\IMM32.DLL
+0x76fe0000 - 0x770ac000 	C:\Windows\syswow64\MSCTF.dll
+0x7c340000 - 0x7c396000 	D:\MyEclipse8X\myeclipse8.0\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	D:\MyEclipse8X\myeclipse8.0\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\client\jvm.dll
+0x735f0000 - 0x73622000 	C:\Windows\system32\WINMM.dll
+0x73480000 - 0x734cb000 	C:\Windows\system32\apphelp.dll
+0x6d340000 - 0x6d348000 	D:\MyEclipse8X\myeclipse8.0\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\hpi.dll
+0x77480000 - 0x77485000 	C:\Windows\syswow64\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	D:\MyEclipse8X\myeclipse8.0\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\verify.dll
+0x6d3e0000 - 0x6d3ff000 	D:\MyEclipse8X\myeclipse8.0\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	D:\MyEclipse8X\myeclipse8.0\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:D:\MyEclipse8X\myeclipse8.0\androidSDK\android-sdk_r07-windows\android-sdk-windows\platforms\android-5\android.jar 
+java_command: android.game.backgammon.ai.EasyAi
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_21
+CLASSPATH=.\;C:\Program Files\Java\jdk1.6.0_21\lib\dt.jar;C:\Program Files\Java\jdk1.6.0_21\lib\tools.jar;C:\Program Files\Java\jdk1.6.0_21\jre\lib
+PATH=D:/MyEclipse8X/myeclipse8.0/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin/client;D:/MyEclipse8X/myeclipse8.0/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.6.0_21\bin
+USERNAME=ShenYuan
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 30 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7600 
+
+CPU:total 8 (8 cores per cpu, 2 threads per core) family 6 model 14 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, ht
+
+Memory: 4k page, physical 4118104k(1885316k free), swap 4194303k(4194303k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.3-b02) for windows-x86 JRE (1.6.0_13-b03), built on Mar  9 2009 01:15:24 by "java_re" with MS VC++ 7.1
+
+time: Mon Dec 13 12:35:21 2010
+elapsed time: 0 seconds
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">五子棋by申远</string>
+    <string name="app_name">五子棋by申远</string>
+    <string name="btn_newgame">New Game</string>
+    <string name="btn_about">About</string>
+    <string name="btn_exit">Quit Game</string>
+    <string name="title_victor">胜利！</string>
+    <string name="title_lose">输了……</string>
+    <string name="text_victor">恭喜！你赢了！</string>
+    <string name="text_lose">遗憾！胜败乃兵家常事，大侠请重新来过。</string>
+	<string name="about">
+	版本v1.1\n
+	制作人：申远</string>
+	<string name="btn_back">回到主菜单</string>
+</resources>
